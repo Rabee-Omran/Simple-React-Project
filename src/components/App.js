@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 function App(){
   return (
-    <div>  
+    <div className="container">  
       <Header/>
     <Body/>
     <Footer/>
