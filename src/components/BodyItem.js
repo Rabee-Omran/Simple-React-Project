@@ -5,9 +5,9 @@ function BodyItem(props){
   
 
         <li className="list-group-item">
-            <img src={props.img}  alt={`icon of ${props.item}`} />
-            <input type="checkbox" id ={props.id}></input>
-            <label htmlFor="id1" >{props.item}</label>
+            <img src={props.p.img}  alt={`icon of ${props.p.item}`} />
+            <input type="checkbox" id ={props.p.id}></input>
+            <label htmlFor="id1" >{props.p.item}</label>
 
         </li>
 
