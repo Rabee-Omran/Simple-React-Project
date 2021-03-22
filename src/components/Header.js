@@ -4,7 +4,7 @@ function Header(){
 
  
   return (
-    <div>  
+    <div className="bg-dark navbar">  
    <h1 className="c1" >Hello from Header</h1>
     </div>
 
