@@ -1,19 +1,30 @@
-import React from 'react';
-import Body from './Body';
-import Header from './Header';
-import Footer from './Footer';
-import MyCard from './MyCard';
-function App(){
-  return (
+import React, { Component } from 'react';
+import File from './File';
+// function App(){
+//   return (
+//     <div className= "container">  
+//   test
+//     </div>
+
+//   );
+
+// }
+
+// export default App;
+
+class App extends Component{
+
+  render(){ 
+    
+    return (
     <div className= "container">  
-      <Header/>
-      <Body/>
-      <MyCard/>
-      <Footer/>
+       <File/>
     </div>
 
-  );
+  );}
 
 }
+
+
 
 export default App;
