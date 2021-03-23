@@ -12,8 +12,8 @@ function Header(){
     // }
  
   return (
-    <div className="bg-dark navbar">  
-   <h1 className="c1" >{ `${title} !!`}</h1>
+    <div className="bg-dark navbar rounded">  
+   <h2 className="c1" >{ `${title} !!`}</h2>
     </div>
 
   );
