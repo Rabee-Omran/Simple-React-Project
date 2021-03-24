@@ -18,7 +18,10 @@ class App extends Component{
     
     return (
     <div className= "container">  
-       <File/>
+       <File name='rabee' name2= 'rabee2'/>
+       <File name='rabee' name2= 'rabee2'/>
+       <File name='rabee' name2= 'rabee2'/>
+       <File name='rabee' name2= 'rabee2'/>
     </div>
 
   );}

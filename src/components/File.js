@@ -9,7 +9,7 @@ class File extends Component{
 
     render(){
         const name = 'rabee';
-        const name2 = this.method('rabee2');
+        const name2 = this.method(this.props.name2);
 
 
 
@@ -18,7 +18,7 @@ class File extends Component{
 
 
          <div>
-             {`${name} ${name2}`}
+             {`${this.props.name} ${name2}`}
               
         </div>
 
