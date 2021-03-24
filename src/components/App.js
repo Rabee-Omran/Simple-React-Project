@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
+import MyCard from './MyCard';
+
 
 class App extends Component{
 
-  constructor(){
-    super()
-    this.state ={answer:'YES'}
+  
+  render(){
+  return (
 
-  }
-
-  render(){ 
-    
-    return (
     <div className= "container">  
-     <h1>do you love React ?? {this.state.answer}</h1>
+   
+         <MyCard/>
+    
     </div>
 
-  );}
+  );
 
-}
-
-
+}}
 
 export default App;
